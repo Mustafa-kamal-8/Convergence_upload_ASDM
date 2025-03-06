@@ -240,7 +240,7 @@ const Candidate: React.FC = () => {
       vsDOB: "Date Of Birth",
 
       vsUUID: "UUID",
-    
+
       vsDepartmentName: "Department Name",
 
       vsGenderName: "Gender",
@@ -417,7 +417,6 @@ const Candidate: React.FC = () => {
             />
           </div>
         </div>
-        
       </div>
       <div className="pt-10">
         <div className="flex justify-between items-center mb-4">
@@ -447,12 +446,11 @@ const Candidate: React.FC = () => {
 
       <div className="bg-yellow-100 mt-8 text-red-700 text-sm  flex items-center justify-center p-4 rounded-sm w-full  mx-auto">
         <span className="text-red-500 text-2xl mr-2">⚠️</span>
-        NOTE: Duplicate checks are performed using a generated unique ID, which is created only when an Aadhaar number is provided.	
+        NOTE: Duplicate checks are performed using a generated unique ID, which
+        is created only when an Aadhaar number is provided.
       </div>
       <div className="pt-10">
-        <p className="text-2xl font-bold mb-4">
-          Check Duplicate Candidates
-        </p>
+        <p className="text-2xl font-bold mb-4">Check Duplicate Candidates</p>
         <div className="py-3 text-lg text-green-600">
           Total Duplicate Entries: {totalDupCount}
         </div>
